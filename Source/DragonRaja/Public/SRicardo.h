@@ -37,6 +37,9 @@ protected:
 	
 	virtual void PostInitializeComponents() override;
 	
+	void MoveForward(float Value);
+	void MoveRight(float Value);
+	
 public:
 	// Sets default values for this character's properties
 	ASRicardo();
